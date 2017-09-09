@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能家居</title>
+    <!--<link rel="stylesheet" href="css/base.css">-->
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="JS/basic.js"></script>
+
+</head>
+<body>
+<div id="main">
+    <!-- 在线咨询 -->
+    <div id="zixun">
+        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456789&amp;site=www.maiziedu.com&amp;menu=yes"><img src="img/services.jpg" alt=""></a>
+    </div>
+    
+    <!-- 上部-->
+    <div id="top">
+        <!-- logo -->
+        <div id="logo"style="position: relative;" >
+            <div class="logo1" ><img src="img/新智达logo1副本.png" alt="" style="margin-top: 15px;width: 200px;height: 60px"></div>
+            <div class="logofont"><span class="logospan">智能家居</span></div>
+            <div style="position: absolute;bottom: 15px;float: right;right: 10px;top: 20px;"><img src="img/top.jpg" alt=""style=""></div>
+            <div id="set">
+                <ul>
+                    <li><a href="#">设为首页</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- menu -->
+        <div id="menu"style="position: relative">
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="aboutus.html">关于我们</a></li>
+                    <li onmouseover="showdiv('nav1')" onmouseout="showdiv('nav1')"><a href="News.html">新闻资讯</a></li>
+                    <li><a href="prolist.html">产品介绍</a></li>
+                    <li><a href="solve.html">解决方案</a></li>
+                    <li><a href="">体验中心</a></li>
+                    <li><a href="prodetail.html">成功案例</a></li>
+                    <li><a href="">加盟合作</a></li>
+                    <li><a href="">资料下载</a></li>
+                    <li><a href="aboutus.html">联系我们</a></li>
+
+                </ul>
+
+            </div>
+
+            <div id="nav1" >
+                <ul>
+                    <li><a href="Newdetail.html">公司新闻</a></li>
+                    <li><a href="">行业新闻</a></li>
+                    <li><a href="">国内新闻</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 轮播图 -->
+    <div id="banner" style="position: relative">
+        <div>
+            <img id="banner1" src="img/banner1.jpg"width="1113px" alt="">
+        </div>
+
+        <div id="span_btn" >
+            <span onmouseover="showbanner(1)" onmouseout="btnMouseOut()">1</span>
+            <span onmouseover="showbanner(2)" onmouseout="btnMouseOut()">2</span>
+            <span onmouseover="showbanner(3)" onmouseout="btnMouseOut()">3</span>
+            <span onmouseover="showbanner(4)" onmouseout="btnMouseOut()">4</span>
+        </div>
+    </div>
+
+    <!-- 中间-->
+    <div id="middle">
+        <!--中上-->
+        <div id="middletop">
+            <div id="newbox" class="topleft">
+                <div class="toptitle">
+                    <div class="titlecont" >
+                        <span>
+                        新闻动态 New
+                        </span>
+                    </div>
+
+                    <div class="toplist">
+                        <div class="titleimg" ><img src="img/newsimg.jpg" alt=""/></div>
+                        <ul class="newul">
+                            <li>文字文字文字文字文字</li>
+                            <li>文字文字文字文字文字</li>
+                            <li>文字文字文字文字文字</li>
+                            <li>文字文字文字文字文字</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="companybox" class="topleft" style="width: 400px">
+                <div class="toptitle">
+                    <div class="titlecont" >
+                        <span>
+                        公司动态 Company
+                        </span>
+                    </div>
+
+                    <div class="toplist">
+                        <div class="titleimg" ><img src="img/companyimg.jpg" alt=""/></div>
+                        <div>
+                            <span style="font-size: 12px;line-height: 20px;display: block;text-indent:2em;margin-top: 20px;font-weight: normal;color: #666">
+                                文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字 文字文字 文字文字 文字文字文字文字
+                                文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字 文字文字 文字文字
+                                文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字 文字文字 文字文字 文字文字
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="linkbox" class="topleft">
+                <div class="toptitle">
+                    <div class="titlecont" >
+                        <span>
+                            联系我们 Contactu us
+                        </span>
+                    </div>
+
+                    <div class="toplist">
+                        <div class="titleimg" ><img src="img/Contactimg.jpg" alt=""/></div>
+                        <ul class="linkusul">
+                            <li>文字文字文字文字文字</li>
+                            <li>文字文字文字文字文字</li>
+                            <li>文字文字文字文字文字</li>
+                            <li>文字文字文字文字文字</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--中下-->
+        <div id="middlebottom">
+            <div id="middleleft" class="topleft" style="height: 280px" >
+                <div class="toptitle">
+                    <div class="titlecont" >
+                        <span>
+                            视频中心 Vedio
+                        </span>
+                    </div>
+                    <div>
+                        <embed src="http://player.youku.com/player.php/sid/XNTI5MjI1MDI4/v.swf" allowFullScreen="true" quality="high" width="320"height="200" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <div id="middleright" class="topleft" style="width: 745px;height: 280px">
+                    <div class="toptitle">
+                        <div class="titlecont" >
+                        <span>
+                            产品展示 Product display
+                        </span>
+                        </div>
+
+                    </div>
+                    <div id="demo">
+                        <div id="indemo">
+                            <div id="demo1">
+                                <div style="float: left">
+                                    <div>
+                                        <a href="#";><img src="img/chanpin.jpg" width="128" height="136" alt=""></a>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <span>产品1</span>
+                                    </div>
+                                </div>
+
+                                <div style="float: left">
+                                    <div>
+                                        <a href="#";><img src="img/chanpin.jpg" width="128" height="136" alt=""></a>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <span>产品2</span>
+                                    </div>
+                                </div>
+
+                                <div style="float: left">
+                                    <div>
+                                        <a href="#";><img src="img/chanpin.jpg" width="128" height="136" alt=""></a>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <span>产品3</span>
+                                    </div>
+                                </div>
+
+                                <div style="float: left">
+                                    <div>
+                                        <a href="#";><img src="img/chanpin.jpg" width="128" height="136" alt=""></a>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <span>产品4</span>
+                                    </div>
+                                </div>
+
+                                <div style="float: left">
+                                    <div>
+                                        <a href="#";><img src="img/chanpin.jpg" width="128" height="136" alt=""></a>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <span>产品5</span>
+                                    </div>
+                                </div>
+
+                                <div style="float: left">
+                                    <div>
+                                        <a href="#";><img src="img/chanpin.jpg" width="128" height="136" alt=""></a>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <span>产品6</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div id="demo2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+
+                    var  speed=10;
+                    var tab=document.getElementById("demo");
+                    var tab1= document.getElementById("demo1");
+                    var tab2=document.getElementById("demo2");
+
+                    tab2.innerHTML = tab1.innerHTML;
+
+                    function Marquee() {
+
+                        if(tab2.offsetWidth-tab.scrollLeft<=0){
+                            tab.scrollLeft -= tab1.offsetWidth;
+                        }
+                        else{
+                            tab.scrollLeft++;
+                        }
+                    }
+
+                    var mymar= setInterval(Marquee,speed);
+
+                    tab.onmouseover = function () {
+                        clearInterval(mymar);
+                    }
+                    tab.onmouseout= function () {
+                        mymar=setInterval(Marquee,speed);
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部-->
+    <div id="bottom">
+        <div id="footer">
+            <div>地址：xxxxxxxxxxxxxxxxx  电话：000-00000000  邮箱：xxxxxxxx@xx.com; xxxxxx公司</div>
+            <div>xxxxxxxx  xxxx  xxxxxxxx  xxxxx xxxxx xxxxx</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

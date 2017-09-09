@@ -1,0 +1,8 @@
+DIV.digg{
+    PADDING-RIGHT:3px;  PADDING-LEFT: 3px;  PADDING-BOTTOM: 3px;margin: 3px;padding-top: 3px;text-align: center;
+}
+DIV.digg A{  border-right: #aad 1px solid;  padding-right: 5px;border-top: #aad 1px solid;padding-left:5px;padding-bottom: 2px;margin: 2px;border-left: #aad 1px solid;color: #009;padding-top: 2px;border-bottom: #aad 1px solid;text-decoration: none; }
+DIV.digg A:hover{border-right: #009 1px solid;border-top: #009 1px solid;border-left: #009 1px solid;  color:#000;border-bottom: #009 1px solid;text-decoration: underline;}
+DIV.digg A:active{border-right: #009 1px solid;border-top: #009 1px solid;border-left: #009 1px solid;color: #000;border-bottom: #009 1px solid;}
+DIV.digg SPAN.current{border-right: #009 1px solid;padding-right: 5px;border-top: #009 1px solid; padding-left: 5px;font-weight: bold;padding-bottom: 2px;margin: 2px;border-left: #009 1px solid;color: #fff;padding-top: 2px;border-bottom: #009 1px solid;background-color: #009;}
+DIV.digg SPAN.disabled{border-right: #eee 1px solid;padding-right: 5px;border-top: #eee 1px solid;padding-left: 5px;padding-bottom: 2px;margin: 2px;border-left: #eee 1px solid;color: #ddd;padding-top: 2px;border-bottom: 1px #eee solid;}
